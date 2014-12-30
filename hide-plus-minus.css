@@ -1,0 +1,2 @@
+.blob-code.blob-code-deletion::first-letter { color: transparent; }
+.blob-code.blob-code-addition::first-letter { color: transparent; }

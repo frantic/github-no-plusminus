@@ -1,0 +1,14 @@
+{
+  "name": "± github",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "manifest_version": 2,
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["hide-plus-minus.css"]
+    }
+  ]
+}
